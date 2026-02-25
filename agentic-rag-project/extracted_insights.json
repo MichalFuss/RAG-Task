@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "id": "dec-001",
+      "category": "decisions",
+      "title": "Frontend Framework",
+      "content": "Use React for the frontend application due to its strong ecosystem, component model, and support for i18n and RTL.",
+      "priority": "High",
+      "source": {
+        "file": "Technical Decisions Log",
+        "anchor": "Frontend: React"
+      },
+      "observed_at": "2025-02-21"
+    },
+    {
+      "id": "dec-002",
+      "category": "decisions",
+      "title": "Authentication Method",
+      "content": "Implement JWT (JSON Web Tokens) for authentication, enabling stateless auth and scaling.",
+      "priority": "High",
+      "source": {
+        "file": "Technical Decisions Log",
+        "anchor": "Authentication: JWT"
+      },
+      "observed_at": "2025-02-21"
+    },
+    {
+      "id": "dec-003",
+      "category": "decisions",
+      "title": "Primary Database",
+      "content": "Choose PostgreSQL as the primary database for its ACID compliance, JSON support, strong indexing, and good tooling.",
+      "priority": "High",
+      "source": {
+        "file": "Technical Decisions Log",
+        "anchor": "Database: PostgreSQL"
+      },
+      "observed_at": "2025-02-21"
+    },
+    {
+      "id": "dec-004",
+      "category": "decisions",
+      "title": "RTL Support",
+      "content": "Make RTL support mandatory for all user-facing screens to ensure consistent RTL layout and text flow for Hebrew and other RTL languages.",
+      "priority": "High",
+      "source": {
+        "file": "Technical Decisions Log",
+        "anchor": "RTL and Locale: Mandatory RTL for All Screens"
+      },
+      "observed_at": "2025-02-21"
+    },
+    {
+      "id": "dec-005",
+      "category": "decisions",
+      "title": "Primary Brand Color",
+      "content": "Set the primary brand color to #3A5FCD for clear and consistent accents, ensuring readability and contrast on light backgrounds.",
+      "priority": "Medium",
+      "source": {
+        "file": "Technical Decisions Log",
+        "anchor": "Design: Primary Color #3A5FCD"
+      },
+      "observed_at": "2025-02-21"
+    },
+    {
+      "id": "dec-006",
+      "category": "decisions",
+      "title": "Project Documentation",
+      "content": "Keep project documentation in a .cursor_docs folder with spec.md, decisions.md, and tasks.md for easy access and updates.",
+      "priority": "Medium",
+      "source": {
+        "file": "Technical Decisions Log",
+        "anchor": "Documentation: .cursor_docs"
+      },
+      "observed_at": "2025-02-21"
+    },
+    {
+      "id": "dec-007",
+      "category": "decisions",
+      "title": "API Conventions",
+      "content": "Use REST or GraphQL with JSON responses, Bearer JWT authentication, and consistent error handling.",
+      "priority": "Medium",
+      "source": {
+        "file": "Technical Decisions Log",
+        "anchor": "API Conventions (High Level)"
+      },
+      "observed_at": "2025-02-21"
+    },
+    {
+      "id": "dec-008",
+      "category": "decisions",
+      "title": "Out of Scope Features",
+      "content": "Real-time presence/typing, file attachments, and email/push notifications are out of scope for the current project specification.",
+      "priority": "Low",
+      "source": {
+        "file": "Technical Decisions Log",
+        "anchor": "Out of Scope (Current Spec)"
+      },
+      "observed_at": "2025-02-21"
+    }
+  ]
+}
